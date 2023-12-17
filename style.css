@@ -1,0 +1,68 @@
+/*
+ These declarations specify 
+styles and selectors 
+
+ This is an id selector
+it is unique 
+
+#sly {
+    background-color: black;
+    color: cyan;
+}
+
+ This is a class selector, preceeded by a
+dot 
+
+.lass {
+    background-color: black;
+    color: pink;
+}
+
+ To specify that only one element should have
+the specified style using a class
+selector 
+
+h1.heading {
+    color: aqua;
+    background-color: black;
+}
+
+ Universal Selector 
+
+* {
+    color: peru;
+    text-align: center;
+}
+*/
+
+/*Grouping selectors.
+h1,p {
+    color: green;
+}
+*?
+/
+
+/* BACKGROUNDS
+body {
+    /*background-color: lightblue;
+    opacity: 0.8;
+    background-image: url("https://th.bing.com/th/id/OIP.71yAihaAEZeZOFyo5oTrowHaFL?rs=1&pid=ImgDetMain");
+    background-position: right top;
+}*/
+
+/* Margins */
+p {
+    /*margin-left: 50px;
+    margin-right: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    /* Compress into one */
+    margin: 50px 50px 50px 50px;
+    /* top, right, bottom, left 
+    you can also specify 3 margins
+    if two are specified it is equivalent to
+    specifiying 4
+    if you specify one it reps all fourS*/
+
+}
