@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+    border-radius: 18px;
+}
+
+.topbar {
+    border: 5px;
+    padding: 20px;
+    text-align: right;
+    background-color: ;
+}
+.topbar a {
+    text-decoration: none;
+    padding: 20px;
+    border: 30px;
+    color: black;
+    font-size: smaller;
+    font-weight: 800;
+}
+.topbar a:hover {
+    background-color: black;
+    color: aqua;
+    transition-duration: 200ms;
+}
+span{
+    color: rgba(9, 243, 9, 0.925);
+}
+.welcome h1{
+    text-align: center;
+    font-size: 10vmax;
+}
+.welcome h1:hover{
+    background-color: rgb(247, 223, 191);
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.welcome p {
+    text-align: center;
+}
+.welcome p:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.start{
+    text-align: right;
+    padding: 20px;
+}
+.start button{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    font-size: normal;
+    font-weight: bolder;
+    background-color: rgb(0, 225, 255);
+    color: whitesmoke;
+    text-align: center;
+}
+.start button:hover {
+    background-color: aquamarine;
+    color: black;
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+.foot{
+    background-color: black;
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-small;
+    font-weight: bolder;
+}
+.foot a:hover {
+    color: aqua;
+}

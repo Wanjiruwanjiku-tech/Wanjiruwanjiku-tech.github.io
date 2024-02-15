@@ -1,0 +1,84 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+    border-radius: 19px;
+}
+#app {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#userProfile, #repoList {
+    margin-top: 20px;
+}
+
+.navigation {
+    display: block;
+    border: 10px;
+    text-align: right;
+}
+.navigation a:hover{
+    background-color: black;
+    color: aqua;
+    transition-duration: 200ms;
+}
+
+.navbars a {
+    text-decoration: none;
+    border: 0px;
+    padding: 20px;
+    color: black;
+}
+
+.top {
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.put:hover {
+    transform: scale(1.2);
+    transition-duration: 200ms;
+}
+input {
+    padding: 20px;
+    font-size: large;
+}
+input:hover {
+    background-color: rgb(250, 186, 102);
+    transition-duration: 200ms;
+}
+
+button{
+    padding: 10px;
+    color: red;
+    font-weight: 900;
+}
+button:hover {
+    background-color: black;
+    color: rgb(16, 136, 192);
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+#app {
+    float: left;
+}
+.thumbnail{
+    height: 100px;
+    float: right;
+    opacity: 0.6;
+}
+
+.animated-element {
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  

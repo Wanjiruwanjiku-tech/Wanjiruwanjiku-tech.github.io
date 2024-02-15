@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Images/logo.jpeg);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.navigation {
+    overflow: hidden;
+    background-image: ;
+    padding: 18px;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #131720;
+}
+
+.GetStarted {
+    float: right;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    float: right;
+}
+
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.column {
+    float: right;
+    width: 25%;
+    text-align: center;
+    background-color: #151f30;
+}
